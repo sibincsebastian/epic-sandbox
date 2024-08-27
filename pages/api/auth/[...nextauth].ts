@@ -3,7 +3,7 @@ import NextAuth from "next-auth";
 const useSecureCookies = !!process.env.VERCEL_URL;
 
 export default NextAuth({
-  // epic-sandbox.vercel.app/api/auth/callback/epic-mychart
+   epic-sandbox.vercel.app/api/auth/callback/epic-mychart
   providers: [
     {
       id: "epic-mychart",
